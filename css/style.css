@@ -113,17 +113,22 @@ h2{
   margin: 0 0 0 20px;
 }
 
+#modal li{
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+#modal img{
+  text-align: center;
+}
+
 /* Modal 非表示設定 */
 #mask.hidden{
   display: none;
 }
 
 #modal.hidden{
-  transform: translate(0, -500px);
-}
-
-#modal.hidden {
-  transform: translate(0, -500px);
+  transform: translate(0, -2000px);
 }
 
 /* footer */
