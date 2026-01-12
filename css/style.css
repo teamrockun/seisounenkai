@@ -99,6 +99,7 @@ h2{
   background: #fff;
   width: 400px;
   padding: 20px;
+  text-align: center;
   border-radius: 4px;
   position: absolute;
   top: 40px;
@@ -109,13 +110,23 @@ h2{
   z-index: 2;
 }
 
-#modal > p{
-  margin: 0 0 0 20px;
+#modal h2{
+  background: #99e6ff;
+  color: #444;
+  padding: 0 56px;
+  border-radius: 4px;
+}
+
+#modal p{
+  margin: 4px 0 0 20px;
+  text-align: left;
 }
 
 #modal li{
+  text-align: center;
   font-weight: bold;
   margin-top: 16px;
+  font-size: 20px;
 }
 
 #modal img{
